@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+
+}
+
+header{
+    display: flex;
+    color: white;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(22, 22,22 , 0.7) ;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+
+}
+body{
+    background-image: url(https://www.restaurantinteriordesign.eu/wp-content/uploads/2018/06/Nobu-New-York.jpg);
+    background-size: 200vh 100vh;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+button{
+    border-style: none;
+    font-size: larger;
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+    padding:5px;
+}
+.logo{
+    cursor: pointer;
+    color: rgb(193, 8, 8);
+    
+    font-size: xx-large;
+    
+    opacity: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nav{
+    color: white;
+    font-size: xx-large;
+    width: fit-content;
+    margin: 10px;
+}
+.nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.home-div{
+    margin-top: 200px;
+
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo-home{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 900;
+    color: rgb(193, 8, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.desc-home{
+    font-size: 42px;
+    font-style: italic;
+}
+
+
+/*----*/
+
+.contact-header{
+    padding: 100px;
+    padding-bottom: 90px;
+    font-size: 65px;
+    margin-left: 500px;
+    background-color: transparent;
+    color: red;
+
+}
+.contact-box{
+    display: flex;
+    gap:70px;
+    padding: 100px;
+    background-color: rgba(31, 29, 29, 0.949);
+    height: 241px;
+}
+.contact-containers{
+    margin-left: 130px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+/*------*/
+
+.gallery-photos-box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(31, 29, 29, 0.649);
+    padding: 20px;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.gallery-images{
+    margin: 10px;
+    width: 330px;
+    border: solid black 3px ;
+    border-radius: 5px;
+}
+.gallery-header{
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
